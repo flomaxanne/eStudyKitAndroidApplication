@@ -22,9 +22,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.view.View.OnClickListener;
 
-import com.android.estudykit.google.zxing.integration.android.IntentIntegrator;
-import com.android.estudykit.google.zxing.integration.android.IntentResult;
-
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.StatusLine;
