@@ -27,13 +27,12 @@ public class PDFActivity extends AppCompatActivity {
 
         //PDFVIEW SHALL DISPLAY OUR PDFS
         PDFView pdfView= (PDFView) findViewById(R.id.pdfView);
-        //SCROLLBAR TO ENABLE SCROLLING
+
         ScrollBar scrollBar = (ScrollBar) findViewById(R.id.scrollBar);
         pdfView.setScrollBar(scrollBar);
-        //VERTICAL SCROLLING
+
         scrollBar.setHorizontal(false);
-        //SACRIFICE MEMORY FOR QUALITY
-        //pdfView.useBestQuality(true)
+
 
         //UNPACK OUR DATA FROM INTENT
         Intent i=this.getIntent();
