@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_weight="1">
+
+
+        <!--  Code Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/subjects_code"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Subject Code" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Title Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/subjects_title"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="text|textAutoComplete|textAutoCorrect"
+                      android:hint="Subject Title" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <!-- Lecturer Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/subjects_lecturer"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Lecturer"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+        <!-- Day Label -->
+
+        <EditText android:id="@+id/subjects_day1"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:visibility="gone"/>
+
+        <EditText android:id="@+id/subjects_time1start"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:visibility="gone"/>
+
+        <EditText android:id="@+id/subjects_time1end"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:visibility="gone"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <Spinner android:id="@+id/subjects_day1_spinner"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:hint="Days"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <Spinner android:id="@+id/subjects_time1start_spinner"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+
+                         android:hint="Days"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <Spinner android:id="@+id/subjects_time1end_spinner"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Location Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/subjects_location1"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:hint="Location1"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+
+
+        <EditText android:id="@+id/subjects_day2"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:visibility="gone"/>
+
+        <EditText android:id="@+id/subjects_time2start"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:visibility="gone"/>
+
+        <EditText android:id="@+id/subjects_time2end"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:visibility="gone"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <Spinner android:id="@+id/subjects_day2_spinner"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:hint="Days"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <Spinner android:id="@+id/subjects_time2start_spinner"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:hint="Days"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <Spinner android:id="@+id/subjects_time2end_spinner"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!-- Location Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/subjects_location2"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:hint="Location2"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+
+
+        <EditText android:id="@+id/subjects_day3"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:visibility="gone"/>
+
+        <EditText android:id="@+id/subjects_time3start"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:visibility="gone"/>
+
+        <EditText android:id="@+id/subjects_time3end"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:visibility="gone"/>
+
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <Spinner android:id="@+id/subjects_day3_spinner"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <Spinner android:id="@+id/subjects_time3start_spinner"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <Spinner android:id="@+id/subjects_time3end_spinner"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <!-- Location Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/subjects_location3"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:hint="Location1"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearlayout"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/subject_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/ic_menu_save"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_toLeftOf="@+id/subject_delete"
+                android:layout_alignParentBottom = "true"
+                android:text=" Save Subject"/>
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/subject_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/trashcan"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_toRightOf="@+id/subject_save"
+                android:layout_alignParentBottom ="true"
+                android:text=" Delete Subject"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

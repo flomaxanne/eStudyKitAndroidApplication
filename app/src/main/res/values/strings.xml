@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">eStudyKit</string>
+    <string name="scan">Scan</string>
+    <string name="thumb">Book Thumbnail</string>
+    <string name="pre">Preview</string>
+    <string name="link">Web</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="title_activity_tasks">Tasks Activity</string>
+    <string name="tasks_title_hint">Enter the tasks.</string>
+    <string name="tasks_title_label">Title</string>
+    <string name="tasks_details_label">Tasks details</string>
+    <string name="tasks_completed_label">Completed</string>
+
+
+    <string name="datepicker_title">Due date: </string>
+
+
+    <string name="new_task">New Task</string>
+
+
+    <string name="subjects_activity_tasks">Subject Activity</string>
+    <string name="subjects_title_hint">Enter the subject.</string>
+    <string name="subjects_title_label">Title</string>
+    <string name="subjects_details_label">Subject details</string>
+    <string name="subjects_completed_label">Completed</string>
+
+
+
+
+</resources>
